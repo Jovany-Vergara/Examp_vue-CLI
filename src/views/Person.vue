@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <h1>{{message}}</h1>
-  <button v-on:click="imprimir">Guardar</button>
+  <button v-on:click="imprimir" class="btn btn-warning mi_class">Guardar</button>
   <p>Se ha hecho clic en el botón de arriba {{ counter }} veces</p>
   <div class="row">
       <div class="col">
@@ -86,3 +86,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss" scoped>
+
+.mi_class {
+    background-color: red;
+}
+</style>
