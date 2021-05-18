@@ -1,5 +1,10 @@
 # hello-word
 
+# versions
+```
+node v15.10.0
+```
+
 ## Project setup
 ```
 npm install
